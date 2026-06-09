@@ -37,14 +37,4 @@ El flujo de procesamiento diseñado para este ejercicio consta de las siguientes
 2.	Capas Ocultas: Bloques de capas densas (Dense) que utilizan funciones de activación ReLU para aprender las combinaciones no lineales de la morfología celular.
 3.	Capa de Salida: Una única neurona con activación Sigmoid que entrega la probabilidad de que el tumor pertenezca a la clase positiva.
 ________________________________________
-🌿 Estructura del Repositorio (Gestión de Ramas)
-Para mantener un historial limpio y evaluar diferentes configuraciones o fases del entrenamiento, este proyecto se organiza en cuatro ramas independientes en GitHub. Cada rama contiene una variante o etapa específica del código:
-•	🔹 main / master: Contiene la versión final y estable del código, el modelo completamente optimizado y los gráficos de rendimiento finales.
-•	🔹 feature-data-preprocessing: Enfocada exclusivamente en la carga del dataset desde Scikit-learn, el análisis exploratorio de datos (EDA) y la normalización/división de los conjuntos de entrenamiento y prueba.
-•	🔹 feature-model-baseline: Implementación de la arquitectura inicial de la red neuronal y el bucle de entrenamiento básico sin ajustes finos.
-•	🔹 feature-tuning-evaluation: Modificaciones de hiperparámetros (tasa de aprendizaje, número de neuronas, dropout para evitar sobreajuste) y la matriz de confusión detallada junto con curvas ROC.
-________________________________________
-🛠️ Requisitos e Instalación
-Para ejecutar cualquiera de las versiones del código en las ramas, asegúrate de tener instalado Python 3 y las siguientes dependencias:
-Bash
-pip install numpy pandas scikit-learn tensorflow matplotlib
+
